@@ -7,7 +7,7 @@ following real-world QA practices.
 
 ---
 
-## 🔍 Scope of Testing
+##  Scope of Testing
 The following areas were covered:
 - Functional testing of Login feature
 - Positive and negative scenarios
@@ -17,7 +17,7 @@ The following areas were covered:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 qa-login-testing/
