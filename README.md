@@ -1,102 +1,68 @@
-# QA Portfolio
+# QA Login Testing (Manual)
 
-This repository serves as a **QA portfolio hub**, showcasing my practical experience in both **Manual Testing** and **QA Automation**.
+This project demonstrates **manual testing** of a login functionality, focusing on **test case design** and **bug reporting** based on real testing scenarios.
 
-The portfolio demonstrates a structured progression from manual QA fundamentals to UI test automation with CI integration.
+The repository is part of a QA portfolio and represents a strong foundation in **Manual QA**, which is later extended into **QA Automation** in a separate project.
 
 ---
 
-##  Manual QA Projects
+##  Project Overview
 
-###  QA Login Testing (Manual)
+The purpose of this project is to showcase:
 
-**Repository:**  
- https://github.com/pers1fal/qa-login-testing
-
-**Description:**  
-Manual testing project focused on validating login functionality.  
-The repository contains structured **test cases** and **bug reports** based on real testing scenarios.
-
-**What is covered:**
-- Functional testing of login feature
-- Positive and negative test scenarios
-- Test case design
-- Bug reporting with clear reproduction steps
-- Expected vs actual results
-- Severity and priority assignment
-
-**Artifacts included:**
--  5 Manual Test Cases
--  5 Bug Reports
-
-**Tools & Skills:**
-- Manual QA fundamentals
+- Manual testing skills
 - Test case design techniques
 - Bug reporting best practices
-- Git & GitHub documentation workflow
+- Understanding of login functionality and validation rules
+- Structured QA documentation using Git & GitHub
 
----
-
-##  QA Automation Projects
-
-###  QA Login Automation (UI)
-
-**Repository:**  
- https://github.com/pers1fal/qa-login-automation
-
-**Description:**  
-UI test automation project for login functionality using **Python, Selenium, Pytest**, and **Page Object Model (POM)** architecture.  
-Includes **GitHub Actions CI** for automated test execution.
-
-**What is covered:**
-- Automated UI tests for login functionality
-- Positive and negative login scenarios
-- Page Object Model (POM) implementation
-- Pytest fixtures for WebDriver setup
-- Headless browser execution
-- Continuous Integration with GitHub Actions
-
-**Technologies Used:**
-- Python 3.10+
-- Selenium WebDriver
-- Pytest
-- Page Object Model (POM)
-- Git & GitHub
-- GitHub Actions (CI)
-
-**Continuous Integration (CI):**
-- Tests are automatically executed on every push to the `main` branch
-- Runs in a Linux environment
-- Uses headless Google Chrome
-- Automatically installs dependencies
-- Executes `pytest` and reports results
-
- CI status confirms that the tests are stable and runnable in an isolated environment.
-
----
-
-##  Demo Application Under Test
-
-Both projects are based on the same demo application:  
+The testing is performed on a demo login page:  
  https://practicetestautomation.com/practice-test-login/
 
-This allows a clear comparison between **manual testing** and **automation testing** approaches.
+---
+
+##  Scope of Testing
+
+The following areas were covered during manual testing:
+
+- User authentication (login functionality)
+- Input validation
+- Error message handling
+- Positive and negative scenarios
 
 ---
 
-##  Portfolio Goal
+##  Test Artifacts Included
 
-This portfolio demonstrates:
-- Strong foundation in **Manual QA**
-- Transition to **QA Automation**
-- Understanding of real-world QA workflows
-- Experience with test documentation and automation frameworks
-- CI/CD integration for automated testing
+###  Test Cases
+- 5 manual test cases covering:
+  - Successful login
+  - Invalid password
+  - Invalid username
+  - Empty input fields
+  - Validation messages
+
+###  Bug Reports
+- 5 bug reports including:
+  - Clear steps to reproduce
+  - Expected vs actual results
+  - Severity and priority
+  - Environment details
+
+All test cases and bug reports are documented in markdown format for easy review.
 
 ---
 
-##  Author
+##  Repository Structure
 
-**Nazar**  
-QA / Junior Automation Engineer  
-GitHub: https://github.com/pers1fal
+```text
+qa-login-testing/
+│
+├── manual-testing/
+│   ├── test-cases/          # Manual test cases
+│   ├── bug-reports/         # Bug reports
+│   └── README.md            # Manual testing documentation
+│
+├── README.md
+└── .gitignore
+
