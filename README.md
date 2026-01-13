@@ -64,5 +64,4 @@ qa-login-testing/
 │   └── README.md            # Manual testing documentation
 │
 ├── README.md
-└── .gitignore
 
